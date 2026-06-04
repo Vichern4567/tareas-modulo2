@@ -1,0 +1,5 @@
+lo que hace es recibir un mensaje y contestar nuevamente el mensaje en un archivo JSON
+
+El post nos siirve en una aplicacion comunitaria para recibir datos 
+de los miembros de la comunidad, ejemplo;
+solicitudes,peticiones, quejas, etc...

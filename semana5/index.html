@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Pagina web para el POST
+    <script>
+        console.log('funciona')
+        fetch('/reporte',{
+            method: 'POST',
+        headers: {
+            'Content.type': 'application/json'
+        
+        },
+        body: JSON.stringify({
+            mensaje: 'Finalizacion de la tarea semana5'
+        })
+     })
+     .then(respuesta => respuesta,json())
+     .then(datos => console.log('Exito:', datos))
+     .catch(error => console.error('Error:',));
+    </script>
+</body>
+</html>
